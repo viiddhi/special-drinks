@@ -23,20 +23,15 @@ The key functionalities include:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your_username/drink_api.git
+    git clone https://github.com/viiddhi/special-drinks.git
     ```
-   
-2. **Navigate to the project directory**:
-    ```bash
-    cd drink_api
-    ```
-
-3. **Create a virtual environment**:
+    
+2. **Create a virtual environment**:
     ```bash
     python -m venv venv
     ```
 
-4. **Activate the virtual environment**:
+3. **Activate the virtual environment**:
     - On Windows:
       ```bash
       venv\Scripts\activate
@@ -46,17 +41,17 @@ The key functionalities include:
       source venv/bin/activate
       ```
 
-5. **Install the required dependencies**:
+4. **Install the required dependencies**:
     ```bash
     pip install -r requirements.txt
     ```
 
-6. **Apply migrations**:
+5. **Apply migrations**:
     ```bash
     python manage.py migrate
     ```
 
-7. **Run the server**:
+6. **Run the server**:
     ```bash
     python manage.py runserver
     ```
